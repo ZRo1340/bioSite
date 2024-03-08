@@ -303,8 +303,9 @@ padding: 1% 1% 1% 1%;
 
 #shooting img {
   display: inline-block;
-  width: auto;
-  height: 400px;
+  width: 30%;
+  height: 30%;
+  border: solid 2px black;
 }
 
 #church {
@@ -316,8 +317,9 @@ padding: 1% 1% 1% 1%;
 
 #church img {
   display: inline-block;
-  width: auto;
-  height: 400px;
+  width: 30%;
+  height: 30%;
+  border: solid 2px black;
 }
 
 #guns {
@@ -328,8 +330,9 @@ padding: 1% 1% 1% 1%;
 
 #guns img {
   display: inline-block;
-  width: auto;
-  height: 400px;
+  width: 30%;
+  height: 30%;
+  border: solid 2px black;
 }
 
 #serving img {
