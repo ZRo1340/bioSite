@@ -415,8 +415,8 @@ main {
 }
 
 .grid img {
-  width: auto;
-  height: 50%;
+  width: 30%;
+  height: 30%;
 }
 
 aside p {
@@ -459,10 +459,16 @@ nav li a:hover {
   background-image: linear-gradient(to bottom, rgb(160, 160, 160), rgb(44, 44, 44));
 }
 
+.grid img {
+  max-width: 100%;
+  max-height: 100%;
+} 
+
 aside p {
   grid-column: 1 / span 3;
   font-size: 2em;
   color: #fff;
+  border-top: solid 5px black;
 }
 
 /*style rules for main table elements*/
