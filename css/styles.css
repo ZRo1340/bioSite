@@ -303,8 +303,9 @@ padding: 1% 1% 1% 1%;
 
 #shooting img {
   display: inline-block;
-  width: auto;
-  height: 400px;
+  width: 30%;
+  height: 30%;
+  border: solid 2px black;
 }
 
 #church {
@@ -316,8 +317,9 @@ padding: 1% 1% 1% 1%;
 
 #church img {
   display: inline-block;
-  width: auto;
-  height: 400px;
+  width: 30%;
+  height: 30%;
+  border: solid 2px black;
 }
 
 #guns {
@@ -328,8 +330,9 @@ padding: 1% 1% 1% 1%;
 
 #guns img {
   display: inline-block;
-  width: auto;
-  height: 400px;
+  width: 30%;
+  height: 30%;
+  border: solid 2px black;
 }
 
 #serving img {
@@ -412,8 +415,8 @@ main {
 }
 
 .grid img {
-  width: auto;
-  height: 50%;
+  width: 30%;
+  height: 30%;
 }
 
 aside p {
@@ -452,14 +455,20 @@ nav li a:hover {
   grid-gap: 20px;
   border: 3px solid black;
   padding: 2% 2% 2% 2%;
-  margin-top: 5%;
+  margin-top: 2%;
   background-image: linear-gradient(to bottom, rgb(160, 160, 160), rgb(44, 44, 44));
+}
+
+.grid img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 aside p {
   grid-column: 1 / span 3;
   font-size: 2em;
   color: #fff;
+  border-top:solid 5px black;
 }
 
 /*style rules for main table elements*/
